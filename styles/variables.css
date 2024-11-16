@@ -1,4 +1,31 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+
+  --page-bg-image: url("../images/cover-image.png");
+
+  --header__rec-decoration-visibility: visible;
+
+  --color-theme-pink1: #fff1f7;
+  --color-theme-pink2: #f1b2ce;
+  --color-theme-pink3: #ffc2e6;
+  --color-theme-pink4: #ff8dcb;
+
+  --color-theme-purple1: #db00ff;
+  --color-theme-purple2: #ff0070;
+  --color-theme-button-hover: #ff007040;
+
+  --color-theme-black1: #000028;
+  --color-theme-black2: #353430;
+  --color-theme-black3: #35343040;
+
+
+  --text-color: var(--color-theme-pink2, #f1b2ce);
+  --head-color: var(--color-theme-purple1, #db00ff);
+  --secondary-color: var(--color-theme-purple2, #ff0070);
+  --third-color: var(--color-theme-button-hover, #ff007040);
+  
+  --accent-color: var(--color-theme-purple2, #ff0070);
+  --highlight-color: var(--color-theme-black1, #000028);
+
+  --page-bg-color: var(--color-theme-black1, #000028);
+
+}
