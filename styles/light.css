@@ -1,5 +1,4 @@
 .page.theme_light {
-
   --page-bg-color: var(--color-theme-pink1, #fff1f7);
   --page-bg-image: url("../images/cover-image-light.png");
 
@@ -15,7 +14,6 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --page-bg-color: var(--color-theme-pink1, #fff1f7);
     --page-bg-image: url("../images/cover-image-light.png");

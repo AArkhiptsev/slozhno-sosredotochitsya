@@ -1,10 +1,9 @@
-
 .page {
   color: var(--text-color, #f1b2ce);
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--page-bg-color, #000028);
-  background-image: var(--page-bg-image, url('../images/cover-image-dark.png'));
+  background-image: var(--page-bg-image, url("../images/cover-image-dark.png"));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,12 +69,11 @@
   content: "REC";
   color: var(--accent-color, #ff0070);
   line-height: 24px;
-
 }
 
 .header__rec-decoration::after {
   content: "";
- /* display: inline-block;*/
+  /* display: inline-block;*/
   background: var(--accent-color, #ff0070);
   border-radius: 50%;
   box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
@@ -84,7 +82,7 @@
 }
 
 .header__title {
- /* margin-block: 55px;*/
+  /* margin-block: 55px;*/
   color: var(--highlight-color, #000028);
   font-weight: 700;
   font-size: inherit;
@@ -94,7 +92,7 @@
 
 .cover {
   display: grid;
-  padding: 10px;  
+  padding: 10px;
   min-block-size: 100vh;
   min-height: 668px;
 }
@@ -133,18 +131,16 @@
 .no-focus {
   text-transform: lowercase;
   font-weight: 700;
-  
+
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   color: var(--head-color, #db00ff);
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
-}  
-
+}
 
 .no-focus-header {
   padding-block-start: 13px;
 }
-
 
 .article-title {
   color: var(--secondary-color, #ff0070);
@@ -161,7 +157,7 @@
 .main {
   display: grid;
   gap: 50px;
-  padding: 40px 10px  0;
+  padding: 40px 10px 0;
 }
 
 .link {
@@ -187,7 +183,7 @@
 }
 
 .section-how__title {
- margin-block-end: 19px;
+  margin-block-end: 19px;
 }
 
 .articles-list {

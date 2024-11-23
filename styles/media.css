@@ -65,7 +65,6 @@
 
   .header {
     padding: 19px 4px 0 0;
-
   }
 
   .header__theme-menu {
@@ -100,11 +99,11 @@
   }
 
   .gallery-list {
-  padding-block-end: 57px;
+    padding-block-end: 57px;
   }
 
   .footer {
-  padding: 13px 0 0 13px;
+    padding: 13px 0 0 13px;
   }
 }
 
@@ -117,7 +116,7 @@
 
   .header {
     padding: 20px 0px 0 0;
-}
+  }
 
   .decorated-zone::before {
     inset-inline-end: 0;
@@ -179,7 +178,7 @@
     margin-block-end: 20px;
   }
   .articles-list {
-     row-gap: 0;
-     column-gap: 20px;
-}
+    row-gap: 0;
+    column-gap: 20px;
+  }
 }

@@ -1,5 +1,4 @@
 .page.theme_dark {
-
   --page-bg-color: var(--color-theme-black1, #000028);
   --page-bg-image: url("../images/cover-image-dark.png");
 
@@ -11,16 +10,12 @@
 
   --secondary-color: var(--color-theme-purple2, #ff0070);
   --third-color: var(--color-theme-button-hover, #ff007040);
-  
+
   --highlight-color: var(--color-theme-black1, #000028);
-
-
-
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    
     --page-bg-color: var(--color-theme-black1, #000028);
     --page-bg-image: url("../images/cover-image-dark.png");
 
@@ -32,9 +27,7 @@
 
     --secondary-color: var(--color-theme-purple2, #ff0070);
     --third-color: var(--color-theme-button-hover, #ff007040);
-    
-    --highlight-color: var(--color-theme-black1, #000028);
 
-    
+    --highlight-color: var(--color-theme-black1, #000028);
   }
 }
