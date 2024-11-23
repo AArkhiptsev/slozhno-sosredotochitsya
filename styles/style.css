@@ -4,7 +4,7 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--page-bg-color, #000028);
-  background-image: url('../images/cover-image-dark.png');
+  background-image: var(--page-bg-image, url('../images/cover-image-dark.png'));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  inset-inline-end: 20px;
+  inset-inline-end: 19px;
   inset-block-start: 11px;
 }
 
@@ -83,7 +83,7 @@
   padding-top: 10px;
 }
 
-.header__first-phrase {
+.header__title {
  /* margin-block: 55px;*/
   color: var(--highlight-color, #000028);
   font-weight: 700;
@@ -92,12 +92,11 @@
   background: var(--accent-color, #ff0070);
 }
 
-
 .cover {
   display: grid;
   padding: 10px;  
-  min-block-size: 73vh;
-  /*row-gap: 1vh;*/
+  min-block-size: 100vh;
+  min-height: 668px;
 }
 
 .decorated-zone {
@@ -128,18 +127,24 @@
 }
 
 .shadow-decor {
-  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .no-focus {
   text-transform: lowercase;
   font-weight: 700;
-  padding-block-start: 11px;
+  
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   color: var(--head-color, #db00ff);
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }  
+
+
+.no-focus-header {
+  padding-block-start: 13px;
+}
+
 
 .article-title {
   color: var(--secondary-color, #ff0070);
@@ -156,16 +161,11 @@
 .main {
   display: grid;
   gap: 50px;
-  padding: 42px 10px;
+  padding: 40px 10px  0;
 }
-
 
 .link {
   text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
 }
 
 .link:focus {
@@ -178,22 +178,17 @@
 
 .section {
   display: grid;
-  gap: 19px;
+  gap: 20px;
 }
 
 .section-gallery {
-  gap: 10px;
+  gap: 9px;
+  padding-block-end: 41px;
 }
 
 .section-how__title {
-  margin-block-end: 20px;
+ margin-block-end: 19px;
 }
-
-
-.section-two__title {
- margin-bottom: 21px;
-}
-
 
 .articles-list {
   display: grid;
@@ -218,9 +213,6 @@
   inline-size: 100%;
 }
 
-
 .footer {
   place-items: center;
-  padding-block-start: 1px;
 }
-

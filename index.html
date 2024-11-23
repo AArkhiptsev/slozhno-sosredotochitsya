@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
-    <link href="./images/favicon.ico" rel="icon" type="image/x-icon" sizes="any" />
-    <link href="./images/favicon.svg" rel="icon" type="image/svg+xml" />
-    <link href="./images/mobile-icon.png" rel="icon" type="image/svg+png" />
-    <link href="./fonts/fonts.css" rel="stylesheet" />
-    <link href="./styles/variables.css" rel="stylesheet" />
-    <link href="./styles/globals.css" rel="stylesheet" />
-    <link href="./styles/style.css" rel="stylesheet" />
-    <link href="./styles/media.css" rel="stylesheet" />
-    <link href="./styles/dark.css" rel="stylesheet" />
-    <link href="./styles/light.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon" sizes="any">
+    <link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+    <link href="./images/mobile-icon.png" rel="icon" type="image/svg+png">
+    <link href="./fonts/fonts.css" rel="stylesheet">
+    <link href="./styles/variables.css" rel="stylesheet">
+    <link href="./styles/globals.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/media.css" rel="stylesheet">
+    <link href="./styles/dark.css" rel="stylesheet">
+    <link href="./styles/light.css" rel="stylesheet">
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
@@ -33,8 +33,8 @@
           </li>
         </ul>
       </nav>
-      <span class="no-focus">no focus</span> <!--На мой взгляд, совершенно не годится в качестве h1, поэтому span-->
-      <h1 class="header__first-phrase">Что делать, когда не можешь делать ничего<br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</h1>
+      <span class="no-focus no-focus-header">no focus</span> <!--На мой взгляд, совершенно не годится в качестве h1, поэтому span-->
+      <h1 class="header__title">Что делать, когда не можешь делать ничего<br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</h1>
     </header>
     <main class="main">
       <section class="section">
@@ -64,9 +64,9 @@
           </li>
         </ul>
       </section>
-      <section class="section section-one">
+      <section class="section section-what">
         <h2 class="article-title">Что снижает концентрацию внимания?</h2>
-        <ul class="articles-list section-one__articles-list">
+        <ul class="articles-list section-what__articles-list">
           <li>
             <article class="article">
               <h3 class="article-title article-title-decor">Многозадачность</h3>
@@ -97,13 +97,13 @@
           </li>
         </ul>
       </section>
-      <section class="section section-two">
+      <section class="section section-how">
         <h2 class="article-title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-        <div aria-hidden="true"> <!--нужен только для переноса контента во второй столбик. или он скроет все вложенное?-->
-          <h3 class="article-title article-title-decor section-two__title">
+        <div> <!--нужен только для переноса контента во второй столбик.-->
+          <h3 class="article-title article-title-decor section-how__title">
             5 простых (на самом деле не очень) советов
           </h3>
-          <ul class="articles-list section-two__articles-list">
+          <ul class="articles-list section-how__articles-list">
             <li>
               <article class="article">
                 <h4 class="article-title article-title-decor">Представьте небо и облака</h4>
@@ -160,37 +160,32 @@
           <li class="gallery-list__item">
             <picture>
               <!--Если мы беспокоимся о скорости загрузки и ставим lazy, то имеет смысл добавить более легкий формат изображения (мое мнение)-->
-              <source srcset="./images/sunset.webp" type="image/webp" />
-              <source srcset="./images/sunset.png" type="image/png" />
-              <img class="gallery-list__item-img" alt="Закат" loading="lazy" /> 
+              <source srcset="./images/sunset.webp" type="image/webp" >
+              <img class="gallery-list__item-img" src="./images/sunset.png" alt="Закат" loading="lazy" > 
             </picture>
           </li>
           <li class="gallery-list__item">
             <picture>
-              <source srcset="./images/ice-cream.webp" type="image/webp" />
-              <source srcset="./images/ice-cream.png" type="image/png" />
-              <img class="gallery-list__item-img" alt="Мороженое" loading="lazy" />
+              <source srcset="./images/ice-cream.webp" type="image/webp" >
+              <img class="gallery-list__item-img" src="./images/ice-cream.png" alt="Мороженое" loading="lazy" >
             </picture>
           </li>
           <li class="gallery-list__item">
             <picture>
-              <source srcset="./images/tape.webp" type="image/webp" />
-              <source srcset="./images/tape.png" type="image/png" />
-              <img class="gallery-list__item-img" alt="Кассета" loading="lazy" />
+              <source srcset="./images/tape.webp" type="image/webp" >
+              <img class="gallery-list__item-img" src="./images/tape.png" alt="Кассета" loading="lazy" >
             </picture>
           </li>
           <li class="gallery-list__item">
             <picture>
-              <source srcset="./images/books.webp" type="image/webp" />
-              <source srcset="./images/books.png" type="image/png" />
-              <img class="gallery-list__item-img" alt="Книга" loading="lazy" />
+              <source srcset="./images/books.webp" type="image/webp" >
+              <img class="gallery-list__item-img" src="./images/books.png" alt="Книга" loading="lazy" >
             </picture>
           </li>
           <li class="gallery-list__item">
             <picture>
-              <source srcset="./images/street.webp" type="image/webp" />
-              <source srcset="./images/street.png" type="image/png" />
-              <img class="gallery-list__item-img" alt="Улица, дома" loading="lazy" />
+              <source srcset="./images/street.webp" type="image/webp" >
+              <img class="gallery-list__item-img" src="./images/street.png" alt="Улица, дома" loading="lazy" >
             </picture>
           </li>
         </ul>
