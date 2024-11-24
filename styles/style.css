@@ -131,7 +131,6 @@
 .no-focus {
   text-transform: lowercase;
   font-weight: 700;
-
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   color: var(--head-color, #db00ff);
@@ -168,6 +167,11 @@
   outline: 0;
 }
 
+
+.link:hover {
+  border-block-end: 1px solid var(--text-color, #f1b2ce);
+}
+
 .link:focus-visible {
   outline: 1px solid currentColor;
 }
@@ -180,6 +184,10 @@
 .section-gallery {
   gap: 9px;
   padding-block-end: 41px;
+}
+
+.section-how {
+  row-gap: 19px;
 }
 
 .section-how__title {
